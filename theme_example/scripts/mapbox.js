@@ -1,11 +1,11 @@
 console.log('Hello world!');
 
-require('dotenv').config();
-const mapboxToken = process.env.MAPBOX_API_TOKEN;
-mapboxgl.accessToken = mapboxToken;
+// require('dotenv').config();
+// const mapboxToken = process.env.MAPBOX_API_TOKEN;
+// mapboxgl.accessToken = mapboxToken;
 
-// mapboxgl.accessToken =
-//   'pk.eyJ1Ijoib2N0b3BoaW5kb20iLCJhIjoiY2xvNzk3a3BlMDNkbTJqb2U1d3FhN2h6dCJ9.ftJp7fPW07v0Sd-G9hVGEA';
+mapboxgl.accessToken =
+  'pk.eyJ1Ijoib2N0b3BoaW5kb20iLCJhIjoiY2xvNzk3a3BlMDNkbTJqb2U1d3FhN2h6dCJ9.ftJp7fPW07v0Sd-G9hVGEA';
 
 const map = new mapboxgl.Map({
   container: 'map', // container ID
