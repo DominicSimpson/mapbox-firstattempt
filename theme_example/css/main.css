@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$background: hotpink;
+$color: white;
+
+body {
+  h1 {
+    font-size: 3rem;
+  }
+
+  font-family: sans-serif;
+  background: $background;
+  color: $color;
+}
